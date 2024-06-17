@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+   
+}
+
+
+main{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  flex-wrap: wrap;
+ 
+
+}
+
+.contact-container{
+  max-width: 960px;
+  margin: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+background-color: whitesmoke ;
+  box-shadow: 0 0 1rem hsla(0 0 0 / 16%);
+  border-radius: 0.5 rem;
+  overflow: hidden;
+  border-radius:10px;
+}
+
+.form-container{
+  padding: 20px;
+}
+.form-container h3{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+
+.contact-form { 
+  display: grid;
+  row-gap: 1rem;
+}
+
+.contact-form input, 
+.contact-form textarea{
+  width: 100%;
+  border: none;
+  outline:none;
+  background: rgba(214, 214, 214, 0.192);
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #000000;
+  border-radius: 0.4rem;
+}
+
+
+.contact-form textarea{
+  resize: none;
+  height: 200px;
+}
+
+
+.contact-form .envoyer-btn{
+  border: none;
+  outline: none;
+  background:#ff9100; 
+  font-size:500 ;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+}
+
+.contact-form .envoyer-btn:hover{
+  background: orangered;
+
+}
+
+
+
+footer {
+  margin-top:10%;
+  padding: 50px 15% 40px;
+
+}
+.main-contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px, auto));
+  justify-content: center;
+  gap: 2rem;
+  background-color: rgb(237, 239, 239);
+  padding:5%;
+  border-radius: 10px;
+}
+.contact-contenent h4 {
+  font-size: 20px;
+  color:rgb(61, 59, 59);
+  margin-bottom: 1.5rem;
+}
+.contact-contenent li {
+  margin-bottom: 16px;
+}
+.contact-contenent li a {
+  display: block;
+  color: rgb(61, 59, 59);
+  font-size: 15px;
+  font-weight: 500;
+  transition: all .40s ease;
+  text-decoration: none;
+
+}
+.contact-contenent li a:hover {
+transform: translateX(10px);
+color: #ff9100;
+}
+
