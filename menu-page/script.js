@@ -1,6 +1,3 @@
-
-
-
 const stars = document.querySelectorAll(".star");
 const defaultRatingIndex = 4;
 
@@ -10,15 +7,6 @@ stars.forEach( (star) =>{
     star.classList.add("selected")
   } )
 })
-
-
-//setting random rating for each item 
-
-for (let star of stars){
-
-}
-
-
 
 // //check if the star is already selected
 
